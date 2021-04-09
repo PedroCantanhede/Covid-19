@@ -233,6 +233,100 @@ header .navbar ul li a:hover {
     transform: translateY(-1rem);
 }
 
+/* Symtoms */
+
+.symtoms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.symtoms .content {
+    flex: 1 1 40rem;
+}
+
+.symtoms .image {
+    flex: 1 1 40rem;
+}
+
+.symtoms .image img {
+    width: 100%;
+}
+
+.symtoms .content p {
+    font-size: 1.5rem;
+    color: var(--dark-gray);
+    padding: 1rem 0;
+}
+
+.symtoms .content ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+.symtoms .content ul .two {
+    padding-left: 4.5rem;
+}
+
+.symtoms .content ul li {
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    color: var(--dark-gray);
+    padding: .5rem 0;
+}
+
+/* Prevent */
+
+.prevent {
+    background: #222;
+}
+
+.prevent .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.prevent .row .image {
+    flex: 1 1 37rem;
+    height: 35rem;
+    text-align: center;
+}
+
+.prevent .row .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.prevent .row .content {
+    padding: 2rem 0;
+    flex: 1 1 37rem;
+}
+
+.prevent .row .content .heading {
+    color: var(--color-white);
+}
+
+.prevent .row .content p {
+    font-size: 1.7rem;
+    color: var(--gray);
+    padding: 1rem 0;
+}
+
+.prevent .row .content ul li {
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    color: var(--gray);
+    padding: .5rem 0;
+}
+
+
+
 
 
 
@@ -301,6 +395,10 @@ header .navbar ul li a:hover {
 
     .home .content {
         text-align: center;
+    }
+
+    .prevent .row:last-child {
+        flex-flow: column-reverse;
     }
 
 }
