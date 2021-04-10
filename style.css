@@ -390,7 +390,7 @@ header .navbar ul li a:hover {
 /* Footer */
 
 .footer {
-    min-width: auto;
+    min-height: auto;
     padding-top: 0;
     background: var(--dark);  
 }
@@ -466,6 +466,21 @@ header .navbar ul li a:hover {
 
 .footer .credit a {
     color: var(--main-color);
+}
+
+/* Scrool UP */
+
+.scrollup {
+    position: fixed;
+    width: 50px;
+    background: var(--main-color);
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: var(--color-white);
+    font-size: 22px;
 }
 
 
