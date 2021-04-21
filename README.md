@@ -28,13 +28,21 @@ Link do Tutorial: https://www.youtube.com/watch?v=sYguu9_ouvE
 ## Características do Site
 
 ✔ Responsividade no Geral
+
 ✔ barra de navegação / cabeçalho com toggle e efeito de scroll.
+
 ✔ seção inicial responsiva usando flexbox.
+
 ✔ seção proteção responsiva usando flexbox.
+
 ✔ seção sintomas responsiva usando flexbox.
+
 ✔ seção prevenção responsiva usando flexbox.
+
 ✔ seção limpeza responsiva usando flexbox.
+
 ✔ seção propagação responsiva usando flexbox.
+
 ✔ seção rodapé (footer) responsiva usando flexbox.
 
 
